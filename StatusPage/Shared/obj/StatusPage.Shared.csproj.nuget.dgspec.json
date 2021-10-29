@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Shared\\StatusPage.Shared.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Shared\\StatusPage.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Shared\\StatusPage.Shared.csproj",
+        "projectName": "StatusPage.Shared",
+        "projectPath": "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Shared\\StatusPage.Shared.csproj",
+        "packagesPath": "C:\\Users\\Mark-YlannLaveder\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mark-YlannLaveder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "StatusPage.Client/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "3.2.1",
+          "Microsoft.Authentication.WebAssembly.Msal": "3.2.1",
+          "Microsoft.Extensions.Http": "3.1.6",
+          "StatusPage.Shared": "1.0.0",
+          "System.Net.Http.Json": "3.2.0"
+        },
+        "compile": {
+          "bin/placeholder/StatusPage.Client.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StatusPage.Client.dll": {}
+        }
+      },
+      "StatusPage.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/StatusPage.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StatusPage.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StatusPage.Client/1.0.0": {
+      "type": "project",
+      "path": "../Client/StatusPage.Client.csproj",
+      "msbuildProject": "../Client/StatusPage.Client.csproj"
+    },
+    "StatusPage.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/StatusPage.Shared.csproj",
+      "msbuildProject": "../Shared/StatusPage.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.AspNetCore.Authentication.AzureAD.UI >= 3.1.6",
+      "Microsoft.AspNetCore.Components.WebAssembly.Server >= 3.2.1",
+      "StatusPage.Client >= 1.0.0",
+      "StatusPage.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Mark-YlannLaveder\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Server\\StatusPage.Server.csproj",
+      "projectName": "StatusPage.Server",
+      "projectPath": "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Server\\StatusPage.Server.csproj",
+      "packagesPath": "C:\\Users\\Mark-YlannLaveder\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Server\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Mark-YlannLaveder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Client\\StatusPage.Client.csproj": {
+              "projectPath": "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Client\\StatusPage.Client.csproj"
+            },
+            "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Shared\\StatusPage.Shared.csproj": {
+              "projectPath": "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Shared\\StatusPage.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
+            "target": "Package",
+            "version": "[3.1.6, )"
+          },
+          "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+            "target": "Package",
+            "version": "[3.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Authentication.AzureAD.UI introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Authentication.AzureAD.UI",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Components.WebAssembly.Server introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Components.WebAssembly introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.Extensions.Http introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Extensions.Http",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.Authentication.WebAssembly.Msal introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Authentication.WebAssembly.Msal",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package System.Net.Http.Json introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Net.Http.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

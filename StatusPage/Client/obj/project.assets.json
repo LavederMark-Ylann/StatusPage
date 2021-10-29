@@ -1,0 +1,179 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "StatusPage.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/StatusPage.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StatusPage.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StatusPage.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/StatusPage.Shared.csproj",
+      "msbuildProject": "../Shared/StatusPage.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.1",
+      "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.1",
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.1",
+      "Microsoft.Authentication.WebAssembly.Msal >= 3.2.1",
+      "Microsoft.Extensions.Http >= 3.1.6",
+      "StatusPage.Shared >= 1.0.0",
+      "System.Net.Http.Json >= 3.2.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Mark-YlannLaveder\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Client\\StatusPage.Client.csproj",
+      "projectName": "StatusPage.Client",
+      "projectPath": "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Client\\StatusPage.Client.csproj",
+      "packagesPath": "C:\\Users\\Mark-YlannLaveder\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Client\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Mark-YlannLaveder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Shared\\StatusPage.Shared.csproj": {
+              "projectPath": "C:\\Users\\Mark-YlannLaveder\\source\\repos\\StatusPage\\StatusPage\\Shared\\StatusPage.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": {
+            "target": "Package",
+            "version": "[3.2.1, )"
+          },
+          "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.2.1, )"
+          },
+          "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.2.1, )"
+          },
+          "Microsoft.Authentication.WebAssembly.Msal": {
+            "target": "Package",
+            "version": "[3.2.1, )"
+          },
+          "Microsoft.Extensions.Http": {
+            "target": "Package",
+            "version": "[3.1.6, )"
+          },
+          "System.Net.Http.Json": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Components.WebAssembly introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.Extensions.Http introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Extensions.Http",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Components.WebAssembly.Build introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.Build",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.Authentication.WebAssembly.Msal introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Authentication.WebAssembly.Msal",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Components.WebAssembly.DevServer introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package System.Net.Http.Json introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Net.Http.Json",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

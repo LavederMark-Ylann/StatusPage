@@ -1,0 +1,10 @@
+C:\Users\Mark-YlannLaveder\source\repos\StatusPage\StatusPage\Shared\bin\Debug\netstandard2.1\StatusPage.Shared.deps.json
+C:\Users\Mark-YlannLaveder\source\repos\StatusPage\StatusPage\Shared\bin\Debug\netstandard2.1\StatusPage.Shared.dll
+C:\Users\Mark-YlannLaveder\source\repos\StatusPage\StatusPage\Shared\bin\Debug\netstandard2.1\StatusPage.Shared.pdb
+C:\Users\Mark-YlannLaveder\source\repos\StatusPage\StatusPage\Shared\obj\Debug\netstandard2.1\StatusPage.Shared.csproj.AssemblyReference.cache
+C:\Users\Mark-YlannLaveder\source\repos\StatusPage\StatusPage\Shared\obj\Debug\netstandard2.1\StatusPage.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mark-YlannLaveder\source\repos\StatusPage\StatusPage\Shared\obj\Debug\netstandard2.1\StatusPage.Shared.AssemblyInfoInputs.cache
+C:\Users\Mark-YlannLaveder\source\repos\StatusPage\StatusPage\Shared\obj\Debug\netstandard2.1\StatusPage.Shared.AssemblyInfo.cs
+C:\Users\Mark-YlannLaveder\source\repos\StatusPage\StatusPage\Shared\obj\Debug\netstandard2.1\StatusPage.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Mark-YlannLaveder\source\repos\StatusPage\StatusPage\Shared\obj\Debug\netstandard2.1\StatusPage.Shared.dll
+C:\Users\Mark-YlannLaveder\source\repos\StatusPage\StatusPage\Shared\obj\Debug\netstandard2.1\StatusPage.Shared.pdb
