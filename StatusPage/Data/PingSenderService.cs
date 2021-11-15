@@ -7,7 +7,7 @@ namespace StatusPage.Data
 {
     public class PingSenderService
     {
-        public string[] Adresses = ["https://www.google.com", "www.facebook.com", "92.123.109.47", "2a02:26f0:129:389::1aca"];
+        public string[] Adresses = new[] { "https://www.google.com", "www.facebook.com", "92.123.109.47", "2a02:26f0:129:389::1aca" };
 
         public Task<PingSender[]> GetPingAsync(DateTime startDate)
         {
