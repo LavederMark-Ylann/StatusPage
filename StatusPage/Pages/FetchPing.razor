@@ -1,0 +1,43 @@
+﻿@page "/fetchping"
+
+@using StatusPage.Data
+@inject PingReponseService PingService
+
+<h1>Pings</h1>
+
+@if (pings == null)
+{
+<p><em>Chargement...</em></p>
+}
+else
+{
+<table class="table">
+    <thead>
+        <tr>
+            <th>Adresse</th>
+            <th>Statut</th>
+            <th>Temps de réponse (ms)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ping in pings)
+        {
+        <tr>
+            <td>@ping.Adresse</td>
+            <td>@ping.Reponse.Status</td>
+            <td>@ping.Reponse.RoundtripTime</td>
+        </tr>
+        }
+    </tbody>
+</table>
+}
+
+@code {
+    private List<PingReponse> pings;
+
+    protected override async Task OnInitializedAsync()
+    {
+        pings = await PingService.GetPing();
+
+    }
+}
