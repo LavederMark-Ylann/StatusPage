@@ -13,18 +13,9 @@ namespace StatusPage.Data
         public string Adresse { get; set; }
         public PingReply Reponse { get; set; }
 
-        public PingReponse(PingReply reply)
+        public PingReponse(string hostname, PingReply reply)
         {
-            IPAddress hostname;
-            if ((IPAddress.TryParse(reply.Address.ToString(), out hostname) == true))
-            {
-                Adresse = hostname.ToString();
-            }
-            else
-            {
-                Adresse = reply.Address.ToString();
-            }
-
+            Adresse = hostname;
             Reponse = reply;
         }
     }

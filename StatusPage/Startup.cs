@@ -28,7 +28,6 @@ namespace StatusPage
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<PingReponseService>();
             services.AddHttpClient();
         }
