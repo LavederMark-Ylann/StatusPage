@@ -1,4 +1,4 @@
-﻿@page "/fetchping"
+﻿@page "/"
 
 @using StatusPage.Data
 @inject PingReponseService PingService
@@ -14,7 +14,8 @@ else
 <table class="table">
     <thead>
         <tr>
-            <th>Adresse</th>
+            <th>Domaine</th>
+            <th>IP</th>
             <th>Statut</th>
             <th>Temps de réponse (ms)</th>
         </tr>
@@ -24,10 +25,12 @@ else
         {
         <tr>
             <td>@ping.Adresse</td>
+            <td>@ping.Reponse.Address</td>
             <td>@ping.Reponse.Status</td>
             <td>@ping.Reponse.RoundtripTime</td>
         </tr>
         }
+
     </tbody>
 </table>
 }
@@ -38,6 +41,5 @@ else
     protected override async Task OnInitializedAsync()
     {
         pings = await PingService.GetPing();
-
     }
 }
