@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: ../
+      dockerfile: ./Statuspage/Dockerfile
+      args:
+        title: statuspage
+    ports:
+      - "443:443"
+      - "80:80"
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+    
